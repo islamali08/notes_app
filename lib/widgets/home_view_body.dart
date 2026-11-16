@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/widgets/Custom_card.dart';
 import 'package:notes_app/widgets/custom_app_bar.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -11,12 +12,17 @@ class HomeViewBody extends StatelessWidget {
       child: Column(children:const [
       
         SizedBox(
-          height: 45,
+          height: 60,
         ),
       
-        CustomAppBar()
+        CustomAppBar(),
+
+              CustomCard()
+
       
       ],
+
+
          
       
       ),
